@@ -1,4 +1,21 @@
-## Requirements
+<!-- for_each will not work with list(string), It will work with set(string) or maps. Alternatively you if you want to use list(string) you need to use toset(var.<your_variable_logical_name>).
+
+Example below is used from google AI for your reference, Enjoy. 
+
+variable "my_list" {
+  type    = list(string)
+  default = ["apple", "banana", "orange", "apple"]
+}
+
+locals {
+  my_set = toset(var.my_list)
+}
+
+output "set_output" {
+  value = local.my_set
+}
+
+-->
 
 | Name | Version |
 |------|---------|
