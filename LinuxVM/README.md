@@ -1,4 +1,11 @@
-## Requirements
+## Created a Linux VM using admin_username and admin_password (You can also use ssh key-pair)
+## In this VM, I have exposed port 80 (from NSG) and used apache2 webserver for hosting my content (http://<your_vm_public_ip>) 
+## Declared the varaiable using command line -var="admin_password=<Your_password>" (You can also try environment variables or direclty mentioning in the variable.tf)
+## Secure way to store is using azure key_vault of terraform vault (I have not used it)
+## Check the output block for the public_ip (terraform output) 
+## Don't forget to reduce you Azure bill (tf destroy) 
+
+## Document generated using command (terraform-docs markdown table . > README.md) 
 
 | Name | Version |
 |------|---------|
