@@ -5,6 +5,9 @@
 
 # export ARM_SUBSCRIPTION_ID="your subscription id"
 
+# Try running terraform plan before applying any changes. (terraform plan)
+# Don't forget to destroy your changes to avoid cost. (terraform destroy) 
+
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.12.2 |
@@ -35,4 +38,4 @@ No inputs.
 
 ## Outputs
 
-No outputs.
+No outputs defined.
