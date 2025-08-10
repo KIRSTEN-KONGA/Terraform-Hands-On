@@ -1,4 +1,9 @@
+## Document generated using terraform-docs command.
+
 ## Requirements
+## Set environment variable for subscription id.
+
+# export ARM_SUBSCRIPTION_ID="your subscription id"
 
 | Name | Version |
 |------|---------|
